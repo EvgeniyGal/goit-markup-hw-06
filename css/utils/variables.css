@@ -1,0 +1,13 @@
+:root {
+    --iris: #4d5ae5;
+    --navyblue: #2e2f42;
+    --cornflower: #e7e9fc;
+    --ocean: #404bbf;
+    --navyblue: #2e2f42;
+    --cloud: #f4f4fd;
+    --white: #ffffff;
+    --slate: #434455;
+    --lite-slate: #8e8f99;
+    --footer-icon-fiil: #31d0aa;
+    --trans-function: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
