@@ -6,8 +6,4 @@
 
 @import './layout/header.css';
 @import './layout/footer.css';
-@import './layout/main-section.css';
-@import './layout/benefits-section.css';
-@import './layout/doing-section.css';
-@import './layout/team-section.css';
-@import './layout/customers-section.css';
+@import './layout/portfolio-section.css';

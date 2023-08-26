@@ -60,8 +60,6 @@
   }
 
   .customers-section .list .item {
-    flex-basis: 168px;
     flex-basis: calc((100% - 120px) / 6);
-    height: 88px;
   }
 }

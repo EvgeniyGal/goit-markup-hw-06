@@ -1,0 +1,111 @@
+.team-section {
+  background-color: var(--cloud);
+}
+
+.team-section .second-heading {
+  margin-bottom: 72px;
+  text-align: center;
+
+  color: var(--navyblue);
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 40px;
+  letter-spacing: 0.02em;
+}
+
+.team-section .list {
+  display: flex;
+  flex-direction: column;
+  gap: 72px;
+  align-items: center;
+}
+
+.team-section .list .item {
+  width: 264px;
+  border-radius: 0 0 4px 4px;
+  background: var(--white);
+  box-shadow: 0px 1px 6px rgba(46, 47, 66, 0.08),
+    0px 1px 1px rgba(46, 47, 66, 0.16), 0px 2px 1px rgba(46, 47, 66, 0.08);
+}
+
+.team-section .text-container {
+  padding: 32px 0;
+}
+
+.team-section .thitd-heading {
+  margin-bottom: 8px;
+  text-align: center;
+  color: var(--navyblue);
+  text-align: center;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.team-section .paragraph {
+  text-align: center;
+  margin-bottom: 8px;
+  color: var(--slate);
+  text-align: center;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  letter-spacing: 0.02em;
+}
+
+.team-section .social-list {
+  display: flex;
+  justify-content: space-around;
+  justify-content: center;
+  font-size: 0;
+  gap: 24px;
+}
+
+.icon-size {
+  width: 40px;
+  height: 40px;
+}
+
+.team-section .social-list .icon-box {
+  width: 100%;
+  height: 100%;
+  background-color: var(--iris);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: var(--trans-bg);
+}
+
+.team-section .social-list .icon-box:hover,
+.team-section .social-list .icon-box:focus {
+  background-color: var(--ocean);
+}
+
+.team-section .social-list .icon {
+  fill: var(--cloud);
+}
+
+@media screen and (min-width: 768px) {
+  .team-section .list {
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 24px;
+    row-gap: 64px;
+    justify-content: center;
+  }
+}
+
+@media screen and (min-width: 1158px) {
+  .team-section .list {
+    flex-wrap: nowrap;
+  }
+
+  .team-section .list .item {
+    width: calc((100% - 72px) / 4);
+  }
+}

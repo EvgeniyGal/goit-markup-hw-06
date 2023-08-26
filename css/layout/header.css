@@ -84,10 +84,22 @@
   border-radius: 50%;
   background-color: transparent;
   line-height: 0;
+  transition: background-color var(--trans-function),
+    stroke var(--trans-function);
+}
+
+.mobile-menu-close-btn:hover,
+.mobile-menu-close-btn:focus {
+  background-color: var(--ocean);
 }
 
 .mobile-menu-close-icon {
   stroke: var(--navyblue);
+}
+
+.mobile-menu-close-btn:hover .mobile-menu-close-icon,
+.mobile-menu-close-btn:focus .mobile-menu-close-icon {
+  stroke: var(--cloud);
 }
 
 .mobile-menu-list {
@@ -109,6 +121,12 @@
   line-height: 40px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  transform: color var(--trans-function);
+}
+
+.mobile-menu-list-link:hover,
+.mobile-menu-list-link:focus {
+  color: var(--ocean);
 }
 
 .mobile-current {
@@ -129,6 +147,12 @@
   border-radius: 50%;
   background-color: var(--iris);
   display: block;
+  transition: back-ground var(--trans-function);
+}
+
+.mobile-menu-social-list-link:hover,
+.mobile-menu-social-list-link:focus {
+  background-color: var(--ocean);
 }
 
 .mobile-menu-social-icon {
@@ -159,6 +183,12 @@
   line-height: 40px;
   letter-spacing: 0.02em;
   text-transform: capitalize;
+  transition: color var(--trans-function);
+}
+
+.mobile-menu-tel:hover,
+.mobile-menu-tel:focus {
+  color: var(--ocean);
 }
 
 .mobile-menu-email {
@@ -168,6 +198,12 @@
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.02em;
+  transition: color var(--trans-function);
+}
+
+.mobile-menu-email:hover,
+.mobile-menu-email:focus {
+  color: var(--ocean);
 }
 
 @media screen and (min-width: 768px) {
@@ -211,6 +247,12 @@
     font-weight: 400;
     line-height: 14px;
     letter-spacing: 0.04em;
+    transition: color var(--trans-function);
+  }
+
+  .top-address-list-link:hover,
+  .mtop-address-list-link:focus {
+    color: var(--ocean);
   }
 
   .menu-item {
@@ -224,6 +266,12 @@
     font-weight: 500;
     line-height: 16px;
     letter-spacing: 0.02px;
+    transition: color var(--trans-function);
+  }
+
+  .menu-link:hover,
+  .menu-link:focus {
+    color: var(--ocean);
   }
 
   .current {

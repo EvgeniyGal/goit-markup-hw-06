@@ -146,6 +146,7 @@
   font-weight: 500;
   line-height: 24px;
   letter-spacing: 0.04em;
+  transition: background-color var(--trans-function);
 }
 
 .footer-subscribe-btn-icon {
@@ -155,7 +156,6 @@
 .footer-subscribe-btn:hover,
 .footer-subscribe-btn:focus {
   background-color: var(--ocean);
-  color: var(--white);
   cursor: pointer;
 }
 
