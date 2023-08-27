@@ -5,25 +5,20 @@
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url(../../images/hero-image.jpg);
+    url(../../images/mob-hero-image.jpg);
   background-repeat: no-repeat;
   background-position: center;
   background-size: cover;
   margin: 0 auto;
 }
 
-@media only screen and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (min--moz-device-pixel-ratio: 2),
-  only screen and (min-device-pixel-ratio: 2),
-  only screen and (-webkit-min-device-pixel-ratio: 2),
-  only screen and (min-resolution: 192dpi),
-  only screen and (min-resolution: 2dppx) {
+@media screen and (min-resolution: 192dpi) and (max-width: 767px) {
   .main-section {
     background-image: linear-gradient(
         rgba(46, 47, 66, 0.7),
         rgba(46, 47, 66, 0.7)
       ),
-      url('../../images/hero-image@2x.jpg');
+      url('../../images/mob-hero-image@2x.jpg');
   }
 }
 
@@ -277,6 +272,24 @@
   .backdrop .blank {
     width: 408px;
   }
+
+  .main-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../../images/tab-hero-image.jpg');
+  }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 768px) {
+  .main-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../../images/tab-hero-image@2x.jpg');
+  }
 }
 
 @media screen and (min-width: 1158px) {
@@ -286,5 +299,29 @@
 
   .main-section {
     padding: 188px 0;
+  }
+
+  .main-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../../images/dt-hero-image.jpg');
+  }
+}
+
+@media screen and (min-resolution: 192dpi) and (min-width: 1158px) {
+  .main-section {
+    background-image: linear-gradient(
+        rgba(46, 47, 66, 0.7),
+        rgba(46, 47, 66, 0.7)
+      ),
+      url('../../images/dt-hero-image@2x.jpg');
+  }
+}
+
+@media screen and (max-width: 427px) {
+  .backdrop .blank {
+    width: 272px;
   }
 }

@@ -47,6 +47,7 @@
   .customers-section .list {
     gap: 24px;
     justify-content: center;
+    row-gap: 72px;
   }
 
   .customers-section .list .item {

@@ -161,7 +161,9 @@
 
 @media screen and (min-width: 768px) {
   .page-footer-container {
-    padding-left: 108px;
+    padding-left: 0;
+    padding-right: 0;
+    width: 584px;
   }
 
   .footer-logo-social-box {
