@@ -166,13 +166,17 @@
   border-color: var(--iris);
 }
 
+.backdrop .field-box-input-group-text:focus + .icon {
+  fill: var(--iris);
+}
+
 .backdrop .field-box-input-group .icon {
   position: absolute;
   left: 16px;
   top: 50%;
   transform: translateY(-50%);
   transition: fill var(--trans-function);
-  fill: var(--iris);
+  fill: var(--navyblue);
 }
 
 .backdrop .textarea-box {

@@ -205,6 +205,7 @@
     padding: 100px 15px;
     flex-direction: row;
     justify-content: space-between;
+    width: 1158px;
   }
 
   .footer-logo-social-box {
